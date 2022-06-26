@@ -1,0 +1,59 @@
+.outerContainer {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.days {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.daysContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 10px 0px;
+}
+
+.title {
+  font-size: 20px;
+  margin: 20px;
+  font-weight: 700;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(216, 126, 126);
+  margin: 4px;
+}
+
+.completed {
+  background-color: rgb(124, 209, 124);
+}
+
+.points {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.textPoint {
+  font-weight: 700;
+}

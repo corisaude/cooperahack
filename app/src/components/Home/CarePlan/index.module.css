@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps {
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.steps::-webkit-scrollbar {
+  display: none;
+}
+
+.step {
+  height: 212px;
+  background: #e2f2fd;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lineContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.line {
+  width: 62px;
+  height: 8px;
+  background: #0674d3;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+.incomplete {
+  background: white;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #5494fb;
+}
+
+.incompleteCircle {
+  background-color: #baddfb;
+}

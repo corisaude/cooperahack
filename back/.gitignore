@@ -1,0 +1,12 @@
+node_modules
+build
+coverage
+.env
+.vscode
+*.log
+.serverless
+cori-b7829*.json
+devTools
+globalConfig.json
+serverless-*.yml
+.DS_Store
